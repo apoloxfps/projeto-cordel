@@ -7,13 +7,15 @@
     padding: 0;
     box-sizing: border-box;  
 }
-
 :root{
-    --font-titulo: 'Passion one', sans-serif;
-    --font-texto: 'sriracha', sans-serif;
+    --font-titulo: "Passion One", sans-serif;
+    --font-texto: 'Sriracha', cursive;
+    --font-padrão: Verdana, geneva, Tahoma, san-serif;
 }
+
+
 body{
-    max-width: 100%;
+    min-height: 100vh;
 }
 
 header{
@@ -27,12 +29,13 @@ header h1{
     padding-top: 30px;
     font-weight: bold;
     font-style: normal;
-    font-size: 6.0em;
+    font-size: 10vw;
     padding-bottom: 15px;
+    font-variant: small-caps;
 }
 header > p{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-padrão);
     
 
 }
@@ -47,7 +50,7 @@ a:hover{
     margin-top:20px ;
     font-family: var(--font-texto);
     padding: 30px;
-    font-size: 3.0em;
+    font-size: 3.5vw;
 
 }
 #box-joaninha{
